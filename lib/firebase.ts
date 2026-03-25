@@ -2,14 +2,14 @@ import { initializeApp } from 'firebase/app';
 import { getFirestore } from 'firebase/firestore';
 
 // Your Firebase configuration
-// Replace these with your Firebase project credentials
 const firebaseConfig = {
-  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY || 'AIzaSyDemoKey123',
-  authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN || 'demo-project.firebaseapp.com',
-  projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID || 'demo-project',
-  storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET || 'demo-project.appspot.com',
-  messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID || '123456789',
-  appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID || '1:123456789:web:abcdef1234567890',
+  apiKey: 'AIzaSyAJJr0VWBYWPqVqTdIR5QsMAXVF--OETo4',
+  authDomain: 'applicant-management-sysyem.firebaseapp.com',
+  projectId: 'applicant-management-sysyem',
+  storageBucket: 'applicant-management-sysyem.firebasestorage.app',
+  messagingSenderId: '191081517648',
+  appId: '1:191081517648:web:5b81feb11cbd731d2cf755',
+  measurementId: 'G-248G02DPGK',
 };
 
 // Initialize Firebase
